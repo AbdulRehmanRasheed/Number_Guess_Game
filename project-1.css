@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    background-size: cover;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-image: url('https://cdn.pixabay.com/photo/2012/08/06/00/53/bridge-53769_640.jpg'); */
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+header {
+    position: relative;
+    height: 35vh;
+    border-bottom: 5px solid white;
+}
+
+main {
+    height: 65vh;
+    display: flex;
+    color: white;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.left {
+    width: 5rem;
+    top: 30%;
+    left: -17%;
+    right: 0%;
+    font-size: 1.5rem;
+    position: relative;
+    display: flex;
+    width: 7rem;
+    height: 10rem;
+    flex-direction: column;
+}
+
+
+input {
+    padding: 12px;
+    border-radius: 10px;
+    width: 50px;
+    left: 17px;
+    /* right: 20%; */
+    position: relative;
+}
+
+
+.right {
+    /* width: 10px; */
+    top: 18%;
+    right: -20px;
+    /* left: 10px; */
+    position: relative;
+    font-size: 1.5rem;
+
+}
+
+h1 {
+    font-size: 5rem;
+    font-size: 4rem;
+    height: 7rem;
+    padding: 5px 5px;
+    color: white;
+    /* color: black; */
+    align-content: center;
+    position: absolute;
+    text-align: center;
+    left: 19%;
+}
+
+.top-right {
+    right: 0%;
+    left: 77%;
+    /* top: 3rem; */
+    top: 0%;
+    /* left: 100%; */
+    font-size: 1.3rem;
+    position: relative;
+    border-radius: 18px;
+    padding: 10px 24px;
+    /* background-color: white; */
+    /* color: black; */
+}
+
+.top-left {
+    left: 1%;
+    right: 70%;
+    top: -3rem;
+    border-radius: 18px;
+    font-size: 1.1rem;
+    position: relative;
+    padding: 10px 24px;
+    /* background-color: white; */
+    /* color: black; */
+}
+
+.top-left:hover {
+    background-color: rgb(79, 87, 79);
+    color: white;
+}
+
+.number {
+    font-size: 4rem;
+    position: relative;
+    padding: 10px 15px;
+    /* right: 70%; */
+    left: 39%;
+    top: 0rem;
+    margin: 5px;
+    color: white;
+    /* background-color: white; */
+    /* color: black; */
+}
+
+.btn-check {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    /* background-color: #000; */
+    /* color: white; */
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-check:hover {
+    background-color: rgb(79, 87, 79);
+    color: white;
+
+
+}
